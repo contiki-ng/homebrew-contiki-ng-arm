@@ -1,6 +1,6 @@
-# homebrew-arm
+# homebrew-contiki-ng-arm-gcc
 
-This repository contains the GNU Toolchain for ARM Embedded Processors as formulae for [Homebrew](http://brew.sh).
+This repository contains the [contiki-ng](https://github.com/contiki-ng/contiki-ng) compatible GNU Toolchain for ARM Embedded Processors as formulae for [Homebrew](http://brew.sh).
 
 ## About
 
@@ -9,7 +9,7 @@ This is a homebrew binary repository for the pre-built GNU toolchain from ARM Co
 
 ## Installing the formulae
 
-First `brew tap osx-cross/arm` and then `brew install <formula>`.
+First `brew tap leojrfs/contiki-ng-arm` and then `brew install <formula>`.
 
 ### Using the prebuilt binaries
 
@@ -17,14 +17,10 @@ To install the entire ARM toolchain, do:
 
 ``` {.bash}
 # to tap the repository
-$ brew tap osx-cross/arm
+$ brew tap leojrfs/contiki-ng-arm
 # to install the toolchain
-$ brew install arm-gcc-bin
+$ brew install contiki-ng-arm-gcc-bin
 ```
-
-### Building from source
-
-*This is not available yet, but we are working on it ;)*
 
 ## Docs
 
